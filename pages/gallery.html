@@ -1,13 +1,18 @@
 <div class="w3-row-padding">
   <!-- Header -->
   <div class="w3-center w3-padding-64">
-    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Gallery</span>
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">About Us</span>
   </div>
   <!-- Slideshow -->
-  <div class="w3-display-container">
-    <img class="mySlides" src="../images/01.jpg">
-    <img class="mySlides" src="../images/02.jpg">
-    <img class="mySlides" src="../images/03.jpg">
+  <div class="w3-content w3-display-container">
+    <!-- Images -->
+    <img class="mySlides" src="../images/01.jpg" >
+    <img class="mySlides" src="../images/02.jpg" style="width:100%">
+    <img class="mySlides" src="../images/03.jpg" style="width:100%">
+    <img class="mySlides" src="../images/04.jpg" style="width:100%">
+    <!-- Slideshow Buttons -->
+    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
   </div>
 </div>
 <script>
@@ -15,17 +20,17 @@
   showDivs(slideIndex);
 
   function plusDivs(n) {
-      showDivs(slideIndex += n);
+    showDivs(slideIndex += n);
   }
 
   function showDivs(n) {
-      var i;
-      var x = document.getElementsByClassName("slide");
-      if (n > x.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = x.length} ;
-      for (i = 0; i < x.length; i++) {
-          x[i].style.display = "none";
-      }
-      x[slideIndex-1].style.display = "block";
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block";
   }
 </script>
