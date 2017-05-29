@@ -1,0 +1,15 @@
+/* Format Content Container */
+.w3-content {
+  margin-top: 43px; /* Offset by Menu Bar Height */
+  max-height: 1037px; /* HD Resolution - (Menu + Footer) */
+  max-width: 1920px; /* Override Default (980px) with HD Resolution */
+}
+
+/* Affix Countdown to Bottom */
+#countdown {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center; /* And Center */
+}
