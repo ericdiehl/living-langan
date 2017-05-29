@@ -13,3 +13,7 @@
   left: 0;
   text-align: center; /* And Center */
 }
+
+.slideshow img {
+  width: 100%;
+}
