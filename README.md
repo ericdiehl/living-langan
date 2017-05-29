@@ -1,3 +1,5 @@
 # Living Langan
 
-Test URL: http://living-langan.herokuapp.com
+## David and Natalie's Wedding Website
+
+URL: http://www.livinglangan.com
