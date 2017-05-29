@@ -51,22 +51,28 @@
     <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
   </div>
 </div>
+<!-- Slideshow Functionality -->
 <script>
+  // Set Start Index
   var slideIndex = 1;
+  // Load Slide #1
   showDivs(slideIndex);
-
+  // Make the Slideshow Buttons Work
   function plusDivs(n) {
     showDivs(slideIndex += n);
   }
-
+  // Slide Display Function
   function showDivs(n) {
     var i;
+    // Get Slides
     var x = document.getElementsByClassName("mySlides");
     if (n > x.length) {slideIndex = 1}
     if (n < 1) {slideIndex = x.length}
+    // Hide Everything
     for (i = 0; i < x.length; i++) {
        x[i].style.display = "none";
     }
+    // Display Target Slide
     x[slideIndex-1].style.display = "block";
   }
 </script>
