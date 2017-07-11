@@ -16,3 +16,6 @@
   background-color: black;
   color: white;
 }
+
+/* Adjust Slideshow Image Sizes */
+.slideshow img {width: 100%;}
