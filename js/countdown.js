@@ -1,6 +1,6 @@
 // End Date
 // Only needs to be called once, so it's outside of the function.
-var endDate = new Date("Mar 31, 2018 00:00:00").getTime();
+var endDate = new Date("Mar 31, 2018 10:00:00").getTime();
 
 // Initialize Function
 var countDown = setInterval(function() {
@@ -18,8 +18,8 @@ var countDown = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display Result
-  document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  document.getElementById("countdown").innerHTML = days + " Days " + hours +
+  " Hours " + minutes + " Minutes " + seconds + " Seconds ";
 
 // Update Every Second
 }, 1000);

@@ -1,6 +1,20 @@
 <h1>Wedding Details</h1>
 
-<h3>(Add Google Maps)</h3>
+<!-- Google Maps -->
+<div id="map" style="width: 50%; height: 400px"></div>
+<script>
+function generateMap() {
+  var coordinates = new google.maps.LatLng(39.49401, -77.548103);
+  var content = {
+    center: coordinates,
+    zoom: 15,
+  };
+  var map = new google.maps.Map(document.getElementById("map"), content);
+  var marker = new google.maps.Marker({position:coordinates});
+  marker.setMap(map);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5HuY6loHcolhZFn6WJXncu6bO7O4eq2w&callback=generateMap"></script>
 
 <ul>
   <li>Musket Ridge Golf Club</li>
