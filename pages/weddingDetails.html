@@ -1,5 +1,5 @@
 <style>
-  . {
+  p, h4, .underline {
     text-align: center;
   }
   #map {
@@ -8,6 +8,14 @@
     height: 400px;
     width: 50%;
     margin-bottom: 2%;
+  }
+  .underline {
+    list-style: none;
+    text-decoration: underline;
+    margin: 2% 0 2% 0;
+  }
+  .bold {
+    text-decoration: underline;
   }
 </style>
 <div class="w3-row-padding">
@@ -23,51 +31,50 @@
     <!-- Info -->
     <div class="w3-col s1">&nbsp;</div>
     <div class="w3-col s2">
-      <i style="display: block; text-align: center" class="fa fa-bell-o" aria-hidden="true"></i>
-      <p>Ceremony</p>
-      <ul>
-        <li>Musket Ridge Golf Club</li>
-        <li>Catoctin Hall (On-site)</li>
-        <li>3555 Brethren Church Rd, Myersville, MD 21773</li>
-        <li>March 31st 2018</li>
-        <li>Ceremony Time: 10:00-11:00am</li>
-        <li>Reception Time: 11:00-3:00pm</li>
-        <li>Colors: Burgundy, Dusty Blue, White</li>
-        <li>Theme: Afternoon Tea/Coffee</li>
-      </ul>
+      <i style="display: block; text-align: center" class="fa fa-bell-o fa-3x" aria-hidden="true"></i>
+      <h4>Ceremony</h4>
+      <p>Location:<br />
+        Musket Ridge Golf Club<br />
+        3555 Brethren Church Rd,<br />
+        Myersville, MD 21773</p>
+      <p>Date: March 31<sup>st</sup> 2018<br />
+        Arrival: 10:00am<br />
+        Ceremony: 10:30am<br />
+        Reception: 11:00-3:00pm<br />
+        Dress Code: Cocktail Attire</p>
     </div>
     <div class="w3-col s2">
-      <i style="display: block; text-align: center" class="fa fa-hotel" aria-hidden="true"></i>
-      <p>Overnight Accommodation</p>
+      <i style="display: block; text-align: center" class="fa fa-hotel fa-3x" aria-hidden="true"></i>
+      <h4>Overnight Accommodation</h4>
       <ul>
-        <li>Boonsboro (Closest)</li>
+        <li class="underline">Boonsboro (Closest)</li>
         <ul>
           <li>Inn BoonsBoro</li>
         </ul>
-        <li>Frederick (East)</li>
+        <li class="underline">Frederick (East)</li>
         <ul>
           <li>Best Western</li>
           <li>Comfort Inn Redhorse</li>
         </ul>
-        <li>Hagerstown (Northwest)</li>
+        <li class="underline">Hagerstown (Northwest)</li>
         <ul>
           <li>Best Western</li>
           <li>Comfort Inn</li>
           <li>Hampton in Hagerstown</li>
           <li>Sleep Inn & Suites Hagerstown</li>
         </ul>
-        <li>Thurmont (Northeast)</li>
+        <li class="underline">Thurmont (Northeast)</li>
         <ul>
           <li>Super 8 Thurmont</li>
         </ul>
       </ul>
     </div>
     <div class="w3-col s2">
-      <i style="display: block; text-align: center" class="fa fa-glass" aria-hidden="true"></i>
-      <p>After Party Options</p>
+      <i style="display: block; text-align: center" class="fa fa-glass fa-3x" aria-hidden="true"></i>
+      <h4>After Party Options</h4>
       <ul>
-        <li>Downtown Frederick/Carroll Creek for shopping, drinks, and more:</li>
-        <ul>
+        <li class="underline">Frederick/Carroll Creek</li>
+        <ul class="center">
           <li>Brewer's Alley</li>
           <li>Cafe Nola</li>
           <li>Il porto</li>
@@ -78,8 +85,8 @@
       </ul>
     </div>
     <div class="w3-col s2">
-      <i style="display: block; text-align: center" class="fa fa-camera-retro" aria-hidden="true"></i>
-      <p>Places to Visit</p>
+      <i style="display: block; text-align: center" class="fa fa-camera-retro fa-3x" aria-hidden="true"></i>
+      <h4>Places to Visit</h4>
       <ul>
         <li>Catoctin Mountain Park</li>
         <li>Clarksburg Premium Outlets</li>
@@ -91,8 +98,8 @@
       </ul>
     </div>
     <div class="w3-col s2">
-      <i style="display: block; text-align: center" class="fa fa-map-marker" aria-hidden="true"></i>
-      <p>Directions</p>
+      <i style="display: block; text-align: center" class="fa fa-map-marker fa-3x" aria-hidden="true"></i>
+      <h4>Directions</h4>
       <p class="bold">From DC</p>
       <ol>
         <li>Take 270 N</li>
