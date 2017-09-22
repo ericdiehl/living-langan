@@ -18,7 +18,10 @@
 }
 
 /* Adjust Slideshow Image Sizes */
-.slideshow img {width: 100%;}
+.slideshow img {
+  width: 22%;
+  margin: auto;
+}
 
 .bold {font-weight: bold;}
 .italic {font-style: italic;}
