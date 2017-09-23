@@ -18,9 +18,8 @@
   font-size: 1.25em;
 }
 
-/* Adjust Slideshow Image Sizes */
+/* Center Slideshow Images */
 .slideshow img {
-  width: 22%;
   margin: auto;
 }
 
