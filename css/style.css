@@ -25,6 +25,7 @@
 
 .bold {font-weight: bold;}
 .italic {font-style: italic;}
+.underline {text-decoration: underline;}
 
 .w3-row-padding {
   margin-bottom: 2%;
