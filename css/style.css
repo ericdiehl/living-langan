@@ -18,15 +18,12 @@
   font-size: 1.25em;
 }
 
-/* Center Slideshow Images */
-.slideshow img {
-  margin: auto;
-}
-
-.bold {font-weight: bold;}
-.italic {font-style: italic;}
-.underline {text-decoration: underline;}
-
+/* Keep Content Off Countdown */
 .w3-row-padding {
   margin-bottom: 2%;
 }
+
+/* Reusable Text Styling Classes */
+.bold {font-weight: bold;}
+.italic {font-style: italic;}
+.underline {text-decoration: underline;}
